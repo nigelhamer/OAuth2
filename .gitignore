@@ -140,6 +140,12 @@ publish/
 # If using the old MSBuild-Integrated Package Restore, uncomment this:
 #!**/packages/repositories.config
 
+#private app settings
+private.config
+
+#Ignore Java client for know
+JavaClient/
+
 # Windows Azure Build Output
 csx/
 *.build.csdef
